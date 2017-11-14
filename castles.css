@@ -1,0 +1,73 @@
+/* 
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Vollkorn', serif;
+
+ */
+ 
+ 
+ #content{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+body{
+	
+	background-size: cover;
+	background-position: center; 
+	font-family: 'ABeeZee', sans-serif;
+	color:white;
+	}
+	
+	body.home{
+	background-image: url("castleruins.jpg");
+	background-size: cover;
+	background-position: center; 
+}
+
+body.dunluce{
+	background-color: white;
+}
+	
+	h1{
+		font-weight: 700; /* This is how you use the 700 font that you took from font-awesome   */
+		font-size: 5em; /* This makes the font 5 times larger than the other text in the body  */
+	}
+	
+	html {
+		height: 100%;  /* This makes the background image cover the whole screen including the parts outside of the body   */
+	}  
+	
+	hr {
+		width: 400px;
+		border-top: 1px solid #f8f8f8;
+		border-bottom: 1px solid rgba (0,0,0, 0.2);
+	}
+	
+	#castleBio {
+		color:#939393;
+		padding: 4px 4px;
+	}
+	
+	#castleBio. h1{
+		text-align:center;
+	}
+	
+	#castledetails{
+		font-weight: 400; 
+	}
+	
+	#row{
+    overflow: hidden; 
+}
+
+#container img {
+    width: 100;
+    height: auto%;
+}
+
+	
+	
