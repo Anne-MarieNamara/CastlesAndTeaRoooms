@@ -8,24 +8,64 @@ font-family: 'Vollkorn', serif;
  #content{
 	text-align: center;
 	padding-top: 25%;
+	margin: 0px 0px;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
+				 
 }
 
 
 body{
-	
+	background-color: #7575a3;
 	background-size: cover;
 	background-position: center; 
 	font-family: 'ABeeZee', sans-serif;
 	color:white;
 	}
 	
-	body.home{
+body.home{
 	background-image: url("castleruins.jpg");
 	background-size: cover;
-	background-position: center; 
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: calc(100% - 280px);
+}
+
+#fold{
+	
+}
+
+
+#intro {
+	background-color: white;
+	color: black;
+	text-align: center;
+	height: 100%;
+	width: auto;
+	margin:0px 0px;
+	padding: 0px 0px;
+}
+
+#teaSetWeeCafe {
+	display: block;
+	border-bottom: 1px solid rgba (0,0,0, 0.2);
+	
+}
+
+#reasons {
+	font-size: medium;
+	float:left;
+	padding: 1% 5% 1% 5%;
+	font-weight: 400;
+	color: grey;
+	font-family: 'Vollkorn', serif;
+}
+
+jumbotron{
+	margin: 0px 0px;
+	padding: 0px 0px;
 }
 
 body.dunluce{
@@ -34,7 +74,14 @@ body.dunluce{
 	
 	h1{
 		font-weight: 700; /* This is how you use the 700 font that you took from font-awesome   */
-		font-size: 5em; /* This makes the font 5 times larger than the other text in the body  */
+		font-size: 5.9vw; /* This makes the font 5 times larger than the other text in the body  */
+		margin: 0;
+		padding: 0;
+	}
+	
+	h3{
+		text-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+		font-size: 2.9vw;
 	}
 	
 	html {
@@ -52,7 +99,7 @@ body.dunluce{
 		padding: 4px 4px;
 	}
 	
-	#castleBio. h1{
+	#castleBio.h1{
 		text-align:center;
 	}
 	
@@ -67,6 +114,18 @@ body.dunluce{
 #container img {
     width: 100;
     height: auto%;
+}
+
+
+.footer {
+	width: 100%;
+	height: 280px;
+	position: absolute;
+	/*bottom: 0;*/
+	background-color: #7575a3;
+	color: grey;
+ 
+   
 }
 
 	
